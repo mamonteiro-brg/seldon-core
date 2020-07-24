@@ -15,7 +15,7 @@ This example uses the following components to setup a demo "gitops" pipleline th
 * Local Docker Registry
 * Seldon Core
 
-![missing cicd image](https://raw.githubusercontent.com/SeldonIO/seldon-core/master/examples/cicd-argocd/cicd-demo.png "Seldon Core CICD demo")
+![missing cicd image](https://raw.githubusercontent.com/SeldonIO/seldon-core/master/examples/cicd/cicd-argocd/cicd-demo.png "Seldon Core CICD demo")
 
 Images are built by firing argo jobs from jenkins, justing a deployer image that contains kubectl to launch argo jobs. Models using the images are deployed by ArgoCD, which syncs a git repo to k8s.
 
