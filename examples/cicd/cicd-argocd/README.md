@@ -122,7 +122,7 @@ You need to have the user in the settings file as Jenkins needs that user in its
 After the setup, use the created tmux session to operate the demo.  
 This session has a port forwarding window and a window that is a view on the operation of the demo shown below.
 
-![missing cicd session image](https://raw.githubusercontent.com/SeldonIO/seldon-core/master/examples/cicd-argocd/seldon-core-cicd-demo-tmux-session.png "Seldon Core CICD demo session")
+![missing cicd session image](https://raw.githubusercontent.com/SeldonIO/seldon-core/master/examples/cicd/cicd-argocd/seldon-core-cicd-demo-tmux-session.png "Seldon Core CICD demo session")
 
 Here the source of the dummy model can be committed and pushed to the remote Github repo. If the web hooks are setup it will trigger an auto build of the image.
 
